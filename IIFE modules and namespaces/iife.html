@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Lexical Scope</h2>
+    <p>
+      Lexical scope is the ability to access variables and functions from within
+      a function. " Functions are executed using the scope chain that was in
+      effect when they were defined" - according to JavaScript Definition Guide.
+    </p>
+
+    <!-- Function expression -->
+    <h2>
+        Function expression
+    </h2>
+    <p>
+        Function expression is a function declaration that is assigned to a
+        variable.
+    </p>
+
+    <!-- Unnammed Function or anonymous function -->
+    <h2>
+        Unnamed Function or anonymous function
+    </h2>
+    <p>
+        <pre>
+            <code>
+                var x = function() {
+                    return "Hello World";
+                }
+            </code>
+        </pre>
+        </p>
+        <p class="unnamed">
+            Unnamed function can be used as a callback function.
+        </p>
+
+    <h2>IIFE - Immediately Invoked Function Expression</h2>
+    <p>
+      An Immediately Invoked Function Expression (IIFE) is a function that is
+      automatically invoked when it is defined.
+</p>
+    <p>
+      <pre>
+        (function() {
+          // code here
+        })();
+      </pre>
+    </p>
+
+
+    <script type="module" src="./iife.js" ></script>
+  </body>
+</html>
